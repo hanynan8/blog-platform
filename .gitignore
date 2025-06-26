@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# vscode settings (لو بتستخدم VS Code)
+.vscode/
+
+# local build cache من React 18+
+.next/
+.cache/
+
+# eslint / prettier temp
+.eslintcache
+
+# parcel / vite users (لو استخدمتهم لاحقًا)
+dist/

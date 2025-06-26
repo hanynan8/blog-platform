@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useEffect } from 'react';
+import Navbar from './component/navbar';
+import Home from './view/Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import  Create  from "./view/Create";
+import  BlogDetails  from "./view/BlogDetaails";
+import ErrorPage from './view/Error404';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+      <div className="App">
+        <Navbar />
+
+        <div className="content">
+          <Routes>
+            <Route path='/' element={<Home />} /> 
+            <Route path='/create' element={<Create />} /> 
+            <Route path='/blog/:id' element={<BlogDetails />} /> 
+            <Route path='*' element={<ErrorPage />} /> 
+          </Routes>
+        </div>
+        
+      </div>
+    </Router>
+
   );
 }
 

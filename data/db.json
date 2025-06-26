@@ -1,0 +1,64 @@
+{
+  "blogs": [
+    {
+      "id": "1a23",
+      "title": "Mastering React Hooks",
+      "body": "React Hooks revolutionized the way we manage state and side effects in functional components. With hooks like useState, useEffect, and useContext, we can now build powerful logic without relying on class components. The flexibility and readability they bring to codebases make React development more intuitive and maintainable. This blog explores advanced hook patterns and custom hook creation to improve code reuse and architecture.",
+      "auther": "hany"
+    },
+    {
+      "id": "2b34",
+      "title": "Deep Dive into Vue.js Reactivity",
+      "body": "Vue.js has a powerful reactivity system that ensures data updates are automatically reflected in the DOM. This post explains how Vue tracks dependencies and handles updates efficiently through proxies and watchers. By understanding Vue's reactivity engine, developers can write more predictable and optimized code. We’ll also cover how Vue 3 improved the system with better performance and Composition API integration.",
+      "auther": "mario"
+    },
+    {
+      "id": "3c45",
+      "title": "CSS Grid vs Flexbox: When to Use What",
+      "body": "CSS Grid and Flexbox are two powerful layout systems in modern web development. While Flexbox is great for one-dimensional layouts like navigation bars or rows, Grid excels in two-dimensional layouts like full-page designs. In this post, we compare use cases, syntax, and performance. We’ll also provide real-world examples to show how combining both can result in clean, responsive layouts that work across all devices.",
+      "auther": "luigi"
+    },
+    {
+      "id": "4d56",
+      "title": "Understanding the JavaScript Event Loop",
+      "body": "The event loop is the backbone of JavaScript’s concurrency model. It allows non-blocking I/O operations, even though JavaScript is single-threaded. This blog post explains how the call stack, callback queue, microtasks, and the loop itself work together to handle asynchronous operations like setTimeout, promises, and fetch. A strong grasp of the event loop is essential for writing efficient, bug-free async code.",
+      "auther": "yoshi"
+    },
+    {
+      "id": "5e67",
+      "title": "Optimizing Web Performance for 2025",
+      "body": "Website performance has become more critical than ever. With users expecting instant load times, developers need to leverage techniques like lazy loading, code splitting, and image optimization. This article provides a roadmap for boosting performance, including using modern build tools, analyzing Lighthouse reports, reducing render-blocking resources, and improving time-to-interactive. Fast sites lead to better UX and higher SEO rankings.",
+      "auther": "toad"
+    },
+    {
+      "id": "6f78",
+      "title": "Deploying Frontend Apps with Vercel",
+      "body": "Vercel has quickly become one of the most popular platforms for deploying frontend apps. With its Git integration, automatic builds, and custom domains, it’s perfect for React, Vue, and static sites. This post walks through deploying a project step-by-step, configuring environment variables, setting up redirects, and enabling serverless functions. It’s never been easier to get your app live and share it with the world.",
+      "auther": "bowser"
+    },
+    {
+      "id": "7g89",
+      "title": "Handling Forms in Vue.js",
+      "body": "Forms are essential to almost every app. In Vue.js, handling form input and validation can be done cleanly with v-model, computed properties, and watchers. We’ll explore how to build reusable form components, manage form state, and integrate validation libraries like Vuelidate or custom logic. Whether you're working with simple forms or complex nested structures, this guide will help you keep your code maintainable and user-friendly.",
+      "auther": "daisy"
+    },
+    {
+      "id": "8h90",
+      "title": "The Power of SCSS in Large Projects",
+      "body": "SCSS brings structure and modularity to CSS. With variables, mixins, nesting, and partials, it allows teams to manage large stylesheets with ease. This blog explores best practices for SCSS architecture, how to avoid deep nesting, create scalable utility classes, and structure your folder hierarchy. Whether you're working on a design system or a client site, SCSS can make your styling cleaner and more maintainable.",
+      "auther": "rosalina"
+    },
+    {
+      "id": "9i01",
+      "title": "Using Axios to Work with APIs",
+      "body": "Axios is a promise-based HTTP client for the browser and Node.js. It simplifies working with APIs by providing clean syntax, interceptors, and better error handling than the native fetch API. This blog covers GET, POST, PUT, DELETE requests, global configuration, response handling, and token authentication. It’s a must-know tool for frontend developers working with RESTful services and dynamic content.",
+      "auther": "wario"
+    },
+    {
+      "id": "10j12",
+      "title": "Version Control Essentials with Git",
+      "body": "Git is the foundation of modern software collaboration. This post covers the basics of Git, including branching, merging, pull requests, conflict resolution, and common workflows like Git Flow. We’ll also explain how to write good commit messages, handle stash, and use GitHub for team collaboration. Whether you're working solo or in a team, mastering Git helps keep your codebase clean, trackable, and easy to manage.",
+      "auther": "link"
+    }
+  ]
+}
