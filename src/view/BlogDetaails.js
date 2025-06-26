@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const BlogDetails = () => {
 
     const deleteBlog = function(id){
-    fetch('http://localhost:3000/blogs/' + id ,{
+    fetch('https://my-json-server.typicode.com/hanynan8/blog-server/blogs/' + id ,{
     method: "DELETE",
   }).then(()=>{
     console.log("Delete Is Done")
@@ -19,7 +19,7 @@ const BlogDetails = () => {
   const navigate = useNavigate()
 
   let { id } = useParams()
-  let {data: blog, loading, error} = useFetch('http://localhost:3000/blogs/' + id)
+  let {data: blog, loading, error} = useFetch('https://my-json-server.typicode.com/hanynan8/blog-server/blogs/' + id)
   return (
     <div className="blog-details">
       { loading && <div>Loading...</div> }

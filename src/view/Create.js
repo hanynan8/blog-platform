@@ -15,7 +15,7 @@ const CreatePage = () => {
     setLoading(true)
     setTimeout(()=>{
       
-  fetch('http://localhost:3000/blogs' ,{
+  fetch('https://my-json-server.typicode.com/hanynan8/blog-server/blogs' ,{
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(blog)
