@@ -4,7 +4,7 @@ import LoadingPage from './loading';
 import useFetch from '../useHook/useFetch';
 
 const Home = () => {
-  let { data, loading, error } = useFetch('http://localhost:3000/blogs');
+  let { data, loading, error } = useFetch('https://my-json-server.typicode.com/hanynan8/blog-server/blogs');
 
   return (
     <div className="home">
